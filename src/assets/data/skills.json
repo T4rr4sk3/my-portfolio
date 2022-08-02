@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":"React",
+        "qty": 6,
+        "iconName": "SiReact"
+    },
+    {
+        "id": 2,
+        "name":"Next",
+        "qty": 4,
+        "iconName": "SiNextdotjs"
+    },
+    {
+        "id": 3,
+        "name":"HTML, CSS & JavaScript",
+        "qty": 5,
+        "iconName": "SiHtml5"
+    },
+    {
+        "id": 4,
+        "name":"Java",
+        "qty": 5,
+        "iconName": "SiJava"
+    },
+    {
+        "id": 5,
+        "name":"NodeJS",
+        "qty": 4,
+        "iconName": "SiNodedotjs"
+    },
+    {
+        "id": 6,
+        "name":".Net (C#)",
+        "qty": 3,
+        "iconName": "SiCsharp"
+    }    
+]

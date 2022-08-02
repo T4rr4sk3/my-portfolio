@@ -1,0 +1,15 @@
+{
+    "changeMode":"Change contrast",
+    "aboutContentPhrase": "\" ...Sometimes, <strong>insistence</strong> is not bad, on the contrary, it makes us grow and makes us stronger to <strong>keep growing</strong> and facing whatever comes our way. \"",
+    "aboutContentAuthor": "-Daniel Pelajo, 2022\n(yep, I created myself)",
+    "aboutTitle": "About me",
+    "aboutText_1": "My name is Daniel Pelajo, 22 years old (almost 23yo), I'm a professional full-stack developer, I work with some recent technologies, like React (and Next), and with more robust technologies, like Java and some frameworks.",
+    "aboutText_2": "My current goal is to grow in my career until I can live independently and fulfill my dreams.",
+    "aboutText_3": "Working since 2021 for Fundação COPPETEC as a full-stack developer.",
+    "skillsTitle":"Skills",    
+    "experienceWith": "Experience with...",
+    "languages": "Languages",
+    "contactTitle":"Contact",
+    "footerText": "Created by Daniel Pelajo",
+    "goBackToTop": "Go back to the top"
+}

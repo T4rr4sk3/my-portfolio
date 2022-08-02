@@ -1,0 +1,91 @@
+{
+    "frameworks": [
+        {
+            "id": 15,
+            "name":"React",
+            "imageSrc": "react.webp"
+        },
+        {
+            "id": 13,
+            "name":"Node JS",
+            "imageSrc": "node.webp"
+        },
+        {
+            "id": 1,
+            "name":"Adonis JS",
+            "imageSrc": "adonis.webp"
+        },
+        {
+            "id": 9,
+            "name":"Material UI",
+            "imageSrc": "material-ui.webp"
+        },
+        {
+            "id": 5,
+            "name":"Hibernate",
+            "imageSrc": "hibernate.webp"
+        },
+        {
+            "id": 10,
+            "name":"Apache Maven",
+            "imageSrc": "maven.webp"
+        },
+        {
+            "id": 14,
+            "name":"Primefaces",
+            "imageSrc": "primefaces.webp"
+        },
+        {
+            "id": 4,
+            "name":"Git Hub",
+            "imageSrc": "github.webp"
+        },
+        {
+            "id": 2,
+            "name":"Chakra UI",
+            "imageSrc": "chakra-ui.webp"
+        },
+        {
+            "id": 12,
+            "name":"Next.JS",
+            "imageSrc": "next.webp"
+        },
+        {
+            "id": 11,
+            "name":"MySQL",
+            "imageSrc": "mysql.webp"
+        },                
+        {
+            "id": 16,
+            "name":"Microsoft SQL Server",
+            "imageSrc": "sqlserver.webp"
+        }        
+    ],
+    "languages":[        
+        {
+            "id": 7,
+            "name":"Java",
+            "imageSrc": "java.webp"
+        },
+        {
+            "id": 17,
+            "name":"Typescript",
+            "imageSrc": "ts.webp"
+        },
+        {
+            "id": 6,
+            "name":"HTML & CSS",
+            "imageSrc": "html5.webp"
+        },
+        {
+            "id": 8,
+            "name":"JavaScript",
+            "imageSrc": "js.webp"
+        },        
+        {
+            "id": 3,
+            "name":"C Sharp",
+            "imageSrc": "c-sharp.webp"
+        }
+    ]
+}
