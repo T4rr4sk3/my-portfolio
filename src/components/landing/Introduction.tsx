@@ -8,7 +8,7 @@ export default function Introduction(){
     return(
         <Stack spacing={5} px='8' textAlign='center' pt='4' maxW='380px'>
             <Circle border='1px solid #EDC4C4' maxWidth='154px' overflow='hidden' alignSelf='center'>
-                <Image src='/myphoto.webp' alt='me' width='154' height='154' placeholder="empty" />
+                <Image src='/myphoto.webp' alt='Daniel de Freitas Pelajo Photo' title="Daniel de Freitas Pelajo" width='154' height='154' placeholder="empty" />
             </Circle>
 
             <Text fontWeight='medium' dangerouslySetInnerHTML={{ __html: t('aboutContentPhrase') }} />

@@ -13,20 +13,22 @@ export default function Locales(){
 
     const { toggleColorMode, colorMode } = useColorMode()
 
+    const langBoxProps = { w:'32px', h:'24px', cursor: 'pointer' }
+
     return(
         <Stack direction='row-reverse' spacing={2}>
-            <Box w='32px' h='24px' onClick={() => verifyLang('en')} border={lang === 'en'? '2px solid #E63462': undefined}>
+            <Box {...langBoxProps} onClick={() => verifyLang('en')} border={lang === 'en'? '2px solid #E63462': undefined}>
                 <Image src={US} width='32' height='24' />
             </Box>
 
-            <Box w='32px' h='24px' onClick={() => verifyLang('pt')} border={lang === 'pt'? '2px solid #E63462': undefined}>
+            <Box {...langBoxProps} onClick={() => verifyLang('pt')} border={lang === 'pt'? '2px solid #E63462': undefined}>
                 <Image src={BR} width='32' height='24' />
             </Box>
 
             <Spacer />                      
 
-            <Flex onClick={toggleColorMode} boxShadow='2px 2px 8px 0 rgba(0, 0, 0, .5)' borderRadius='full'>
-                <Icon as={colorMode === "light"? MdDarkMode : MdLightMode } boxSize='6' />
+            <Flex onClick={toggleColorMode} boxShadow='2px 2px 8px 0 rgba(0, 0, 0, .5)' borderRadius='full' cursor='pointer'>
+                <Icon as={colorMode === "light"? MdDarkMode : MdLightMode } boxSize='6' p='0.5' />
             </Flex>
         </Stack>
     )
