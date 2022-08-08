@@ -5,8 +5,8 @@ export default function AboutMe(){
     const { t } = useTranslation('landing')
 
     return(
-        <Stack spacing={4} fontWeight='medium' id='about' pt='calc(12px + var(--header-size))' maxW='720px'>
-            <Text fontWeight='bold' fontSize='title' textAlign='center'>
+        <Stack spacing={4} fontWeight='medium' id='about' pt='calc(12px + var(--header-size))' maxW='720px' textAlign='center'>
+            <Text fontWeight='bold' fontSize='title'>
                 {t('aboutTitle')}
             </Text>
 

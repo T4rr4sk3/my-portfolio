@@ -18,7 +18,7 @@ export default function Document() {
         <ColorModeScript initialColorMode='light' />
         <Main />
         <NextScript />
-        <Script src="/js/lazyStyles.js" strategy='lazyOnload' />
+        <Script src="/js/lazyStyles.js" strategy='afterInteractive' />
       </body>
     </Html>
   );

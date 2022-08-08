@@ -40,17 +40,17 @@ export default function ExperiencesWrap({ array, title, keepSize, priority, prio
         py: 4
     }
 
-    const priorityAll = priority && (!priorTargets || priorTargets.length === 0)
-
+    const priorityAll = (priority ?? false) && (!priorTargets || priorTargets.length === 0)
+    
     return (
         <Box w='100%' textAlign='center' pt={styles.pt}>
-            <Text fontSize={styles.fontSize} fontWeight='semibold'>{title}</Text>
+            <Text fontSize={styles.fontSize} fontWeight='semibold' mb={4}>{title}</Text>
 
             <Wrap justify='center' marginInline='auto' py={styles.py} spacing={styles.spacing} bg='white' borderRadius='12px'>
                 {array.map(data => (
                     <WrapItem key={data.id}>
                         <Image
-                          priority={priorityAll || priorTargets?.indexOf(data.id) !== -1}
+                          priority={priorityAll || (priorTargets ? priorTargets.indexOf(data.id) !== -1 : false)}
                           src={'/images/' + data.imageSrc}
                           alt={data.name} title={data.name}
                           width={keepSize? 50: styles.w}

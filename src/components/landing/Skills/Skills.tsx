@@ -8,7 +8,7 @@ export default function Skills(){
 
     return(
         <Stack
-          spacing={2} pt='calc(12px + var(--header-size))' id='skills' w={[null, null, '600px']}
+          spacing={4} pt='var(--title-scroll-space)' id='skills' w={[null, null, '600px']}
           divider={<StackDivider borderColor='chakra-border-color' />}
         >
             <Text textAlign='center' fontWeight='bold' fontSize='title'>{t('skillsTitle')}</Text>

@@ -1,4 +1,5 @@
 :root{
   --header-size: 64px;
   --header-size-lg: 86px;
+  --title-scroll-space: calc(12px + var(--header-size))
 }

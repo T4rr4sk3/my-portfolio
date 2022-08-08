@@ -8,8 +8,7 @@ import Introduction from '../components/landing/Introduction'
 import Locales from '../components/landing/Locales'
 import Skills from '../components/landing/Skills/Skills'
 
-const Home: NextPage = () => 
-(
+const Home: NextPage = () => (
   <BaseLayout>
     <Stack spacing='10' alignItems='center'>
       <Locales />
