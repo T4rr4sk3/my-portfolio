@@ -18,11 +18,11 @@ export default function Locales(){
     return(
         <Stack direction='row-reverse' spacing={2}>
             <Box {...langBoxProps} onClick={() => verifyLang('en')} border={lang === 'en'? '2px solid #E63462': undefined}>
-                <Image src={US} width='32' height='24' />
+                <Image src={US} width='32' height='24' alt='English language' />
             </Box>
 
             <Box {...langBoxProps} onClick={() => verifyLang('pt')} border={lang === 'pt'? '2px solid #E63462': undefined}>
-                <Image src={BR} width='32' height='24' />
+                <Image src={BR} width='32' height='24' alt='Portuguese language' />
             </Box>
 
             <Spacer />                      

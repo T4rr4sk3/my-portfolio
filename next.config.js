@@ -4,6 +4,7 @@ const nextTranslate = require('next-translate')
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  basePath: '/',
   ...nextTranslate(),
 }
 
