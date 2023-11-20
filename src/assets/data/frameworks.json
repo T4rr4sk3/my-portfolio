@@ -46,6 +46,11 @@
             "imageSrc": "chakra-ui.webp"
         },
         {
+            "id": 18,
+            "name": "TailwindCSS",
+            "imageSrc": "tailwind-css.webp"
+        },
+        {
             "id": 12,
             "name":"Next.JS",
             "imageSrc": "next.webp"
